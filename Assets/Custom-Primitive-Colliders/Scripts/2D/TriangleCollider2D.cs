@@ -6,9 +6,9 @@ http://opensource.org/licenses/mit-license.php
 */
 using UnityEngine;
 
-namespace CustomPrimitiveCollider
+namespace CustomPrimitiveColliders
 {
-    [RequireComponent(typeof(PolygonCollider2D))]
+    [AddComponentMenu("CustomPrimitiveColliders/2D/Triangle Collider 2D"), RequireComponent(typeof(PolygonCollider2D))]
     public class TriangleCollider2D : BaseCustomCollider
     {
         [SerializeField]

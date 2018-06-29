@@ -7,9 +7,9 @@ http://opensource.org/licenses/mit-license.php
 using System.Text;
 using UnityEngine;
 
-namespace CustomPrimitiveCollider
+namespace CustomPrimitiveColliders
 {
-    [RequireComponent(typeof(MeshCollider))]
+    [AddComponentMenu("CustomPrimitiveColliders/3D/Fan Cylinder Collider"), RequireComponent(typeof(MeshCollider))]
     public class FanCylinderCollider : BaseCustomCollider
     {
         [SerializeField]

@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CustomPrimitiveCollider
+namespace CustomPrimitiveColliders
 {
     public abstract class BaseCustomCollider : MonoBehaviour
     {
